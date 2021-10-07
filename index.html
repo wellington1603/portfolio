@@ -3,13 +3,85 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <meta http-equiv="refresh" content="5">
         <title>Wellington Ferreira</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/fonts.css"/>
     </head>
 
     <body>
-        <h1>Wellington</h1>
-        <p>Eu sou o novo aluno da proDev</p>
 
+        <header>
+            <nav class="navegacao">
+                <ul>
+                    <li class="nav-titulo"><a href="#intro">Inicio</a></li>
+                    <li class="nav-titulo"><a href="#sobre">Sobre</a></li>
+                    <li class="nav-titulo"><a href="#contato">Contato</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+
+        <section id="intro">
+
+            <div class="wrapper">
+                <h1 id="principal">Wellington Ferreira</h1>
+                <p id="para-header">Sou aluno frontend da ProDevs</p>
+                <a href="https://linkedin.com/" target="blank"><button class="linkedIn">Visite meu LinkdIn</button></a>
+            </div>
+        </section>
+        
+        <!--Seção 01-->
+
+       
+        <section id="sobre">
+            <div class="wrapper"> 
+
+                <h2 id="titulo-sobre">SOBRE MIM</h2>
+                
+                <h2>Wellington Barbosa Ferreira</h2>
+
+                <div class="box-sobre">
+                    <div>
+
+                        <img src="./assets/wel.png" alt="" style="width: 300px;">
+                    </div>
+
+                    <div>
+                        <p class="paragrafo-princi"> Carioca e amante de praia e futebol (Mesmo não sabendo jogar muito) Inciante no mundo da programação, tendo inicado seus estudos no ano de 2020 através do YouTube no canal curso em vídeo, logo depois iniciando a faculdade de análise e desenvolvimento de sistemas. </p>
+        
+                        <p class="paragrafo-princi">Tenho facilidade em aprender coisas relacionada a programação e computação a qual eu me interesso pela área desde novo e sempre tive o sonho de trabalhar na área, tenho como objetivo está em 2022 trabalhando na área de desenvolvimento e vou estudar e dar meu melhor para isso.</p>
+        
+                        <p class="paragrafo-princi">Hoje estou tendo a oportunidade de aprender mais sobre React na ProDevs e quero terminar o curso e me forma e se Deus quiser conseguir uma vaga para ajudar nos abjetivos da empresa e buscar o amadureciomento me tornarando um bom profissional.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    
+        <!--FIM da seção 01-->
+
+        <!--Seção 02-->
+        <section id="contato">
+            <div class="wrapper">
+                <h2 id="titulo-sobre">Contato</h2>
+                <div id="infoContato">
+                    
+                    <p>WhatsApp: (21) 96587-2048</p>
+                    <p>wellington.ferreira100@gmail.com</p>
+                </div>
+
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy;Copyright 2021</p>
+        </footer>
+        <!--FIM da seção 02-->
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.js"></script>
+        <script src="./js/app.js"></script>
     </body>
 </html>

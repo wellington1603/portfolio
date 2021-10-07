@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Source Serif Pro', serif;
+    color: #ffffff;
+}
+
+section{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.wrapper{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+#intro{
+    background-image: url(../assets/pc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    color: rgb(255, 255, 255);
+}
+ 
+#principal{
+    font-size: 58px;
+}
+#titulo-sobre,
+#titulo-sobre{
+    text-transform: uppercase;
+    font-size: 52px;
+}
+
+#principal::after {
+    content: '|';
+    opacity: 1;
+    font-size: 35px;
+    margin-left: 5px;
+    display: inline-block;
+    animation: blink .7s infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+
+
+#secundario{
+    font-weight: 100;
+}
+
+.linkedIn{
+    background: transparent;
+    color: #ffffff;
+    border: 1px #ffffff solid;
+    margin-top: 40px;
+    padding: 12px 36px;
+    font-size: 15px;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.linkedIn:hover{
+    background: #ffffff;
+    color: black;
+}
+
+.paragrafo-princi{
+    width: 50%;
+    margin: 32px;
+    font-size: 16px;
+}
+
+#para-header{
+    color: rgb(197, 224, 40);
+}
+
+.navegacao{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 1.5s  ease;
+    z-index: 2;
+}
+
+.sticky{
+    background-color: #000;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.navegacao ul a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+
+.navegacao ul a:hover{
+    color: rgb(197, 224, 40);
+}
+
+
+.navegacao ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 70%;
+    margin: 25px 0;
+}
+.navegacao ul li{
+    margin-left: 20px;
+    list-style: none;
+}
+
+section{
+    background-color: black;
+}
+
+footer{
+    background-color: rgb(48, 46, 46);
+    text-align: center;
+}
+
+footer p{
+    padding: 25px;
+}
+
+.box-sobre{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
